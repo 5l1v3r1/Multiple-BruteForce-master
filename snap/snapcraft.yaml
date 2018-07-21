@@ -1,0 +1,15 @@
+
+  name: multi-bruteforce
+  version: '1.2' # just for humans, typically '1.2+git' or '1.3.2'
+  summary: Multi Brute Force to hack FB, IG, and Twitter
+  description: |
+    This tool is used to hack facebook, twitter, and instagram accounts. Does NOT work for all accounts.
+
+  grade: Stable 
+  confinement: Strict 
+  
+  parts:
+    my-part:
+      # See 'snapcraft plugins'
+      plugin: nil
+  
